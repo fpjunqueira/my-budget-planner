@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-// import { FlexLayoutModule } from '@angular/flex-layout';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 // material.module.ts
 import { MAT_LABEL_GLOBAL_OPTIONS, MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';
@@ -79,7 +79,7 @@ import { MatDividerModule } from '@angular/material/divider';
         MatToolbarModule,
         MatTooltipModule,
         MatTreeModule,
-        // FlexLayoutModule
+        FlexLayoutModule
     ],
     declarations: []
 })
